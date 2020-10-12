@@ -18,8 +18,8 @@ Here I have written a code using Python, Pandas, Matplotlib to visualize the dat
 "United Kingdom of Great Britain and Northern Ireland": "United Kingdom",
 "China, Hong Kong Special Administrative Region": "Hong Kong"
 
-'5. There are also several countries with numbers and/or parenthesis in their name. So I rename these as following, 
-'
+5. There are also several countries with numbers and/or parenthesis in their name. So I rename these as following, 
+
 e.g. 
 
 'Bolivia (Plurinational State of)'` should be `'Bolivia'`, 
