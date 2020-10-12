@@ -11,29 +11,29 @@ Here I have written a code using Python, Pandas, Matplotlib to visualize the dat
 
 3. Then Converted `Energy Supply` to Gigajoules (there are 1,000,000 gigajoules in a petajoule). For all countries which have missing data (e.g. data with "..."), It is reflected as `np.NaN` values.
 
-4. Rename the following list of countries (for use in later questions):
+4. Renaming the following list of countries:
 
-```"Republic of Korea": "South Korea",
+"Republic of Korea": "South Korea",
 "United States of America": "United States",
 "United Kingdom of Great Britain and Northern Ireland": "United Kingdom",
-"China, Hong Kong Special Administrative Region": "Hong Kong"```
+"China, Hong Kong Special Administrative Region": "Hong Kong"
 
-5. There are also several countries with numbers and/or parenthesis in their name. So I rename these as following, 
-
+'5. There are also several countries with numbers and/or parenthesis in their name. So I rename these as following, 
+'
 e.g. 
 
-`'Bolivia (Plurinational State of)'` should be `'Bolivia'`, 
+'Bolivia (Plurinational State of)'` should be `'Bolivia'`, 
 
-`'Switzerland17'` should be `'Switzerland'`.
+`'Switzerland17'` should be `'Switzerland'.
 
 
 6. Next, I load the GDP data from the file `world_bank.csv`, which is a csv containing countries' GDP from 1960 to 2015 from [World Bank](http://data.worldbank.org/indicator/NY.GDP.MKTP.CD). Called this DataFrame **GDP**. 
 
 7. I skip the header, and rename the following list of countries:
 
-```"Korea, Rep.": "South Korea", 
+"Korea, Rep.": "South Korea", 
 "Iran, Islamic Rep.": "Iran",
-"Hong Kong SAR, China": "Hong Kong"```
+"Hong Kong SAR, China": "Hong Kong"
 
 
 8. Finally, I load the [Sciamgo Journal and Country Rank data for Energy Engineering and Power Technology](http://www.scimagojr.com/countryrank.php?category=2102) from the file `scimagojr-3.xlsx`, which ranks countries based on their journal contributions in the aforementioned area. Call this DataFrame **ScimEn**.
